@@ -1,6 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor
 
-import keras
+from tensorflow import keras
 import numpy as np
 
 from keras_dataloader.dataset import Dataset
